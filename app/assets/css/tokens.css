@@ -1,0 +1,78 @@
+:root {
+  /* Brand */
+  --color-brand: #c14a16;
+  --color-brand-hover: #a33f12;
+
+  /* Text */
+  --color-text: #2b211c;
+  --color-text-secondary: #6b5e55;
+
+  /* Backgrounds */
+  --color-bg: #f7f2ea;
+  --color-cream: #f6e3cf;
+  --color-surface: #ffffff;
+
+  /* Borders */
+  --color-border: #ddd3c6;
+  --color-border-light: #ece4d9;
+
+  /* Status */
+  --color-success: #2f6b4f;
+  --color-error: #b8322a;
+  --color-warning: #b8861b;
+
+  /* Awning palette (commerçant) */
+  --awning-red: #b8322a;
+  --awning-raspberry: #a3305b;
+  --awning-plum: #6e3b6e;
+  --awning-ocean: #1f5f8b;
+  --awning-slate: #3d5a73;
+  --awning-forest: #2f6b4f;
+  --awning-olive: #6b7a2a;
+  --awning-mustard: #b8861b;
+  --awning-chestnut: #7a4a2b;
+  --awning-charcoal: #3a3330;
+
+  /* Typography */
+  --font-heading: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Touch targets */
+  --touch-min: 44px;
+
+  /* Awning dimensions */
+  --awning-height: 120px;
+  --awning-collapsed-height: 56px;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgb(43 33 28 / 0.06);
+  --shadow-md: 0 4px 12px rgb(43 33 28 / 0.08);
+  --shadow-lg: 0 8px 24px rgb(43 33 28 / 0.12);
+
+  /* Z-index */
+  --z-header: 100;
+  --z-overlay: 200;
+  --z-modal: 300;
+  --z-nav: 400;
+}
