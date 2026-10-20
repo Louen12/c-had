@@ -40,7 +40,7 @@ services:
       - ./app:/srv/app
       - app_node_modules:/srv/app/node_modules
     ports:
-      - "3000:3000"
+      - "${APP_PORT:-3000}:3000"
     environment:
       NUXT_PUBLIC_API_BASE: "http://localhost:8000/api"
 

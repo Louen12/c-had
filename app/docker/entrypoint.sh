@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-if [ ! -d "node_modules" ]; then
+if [ ! -f "node_modules/.package-lock.json" ]; then
     npm install
 fi
 
